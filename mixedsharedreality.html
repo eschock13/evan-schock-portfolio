@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Evan Schock</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="resume.html" class="navbar__links">Resume</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="contact.html" class="button">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+     <div class="projects">
+        <div class="projects__container">
+            <div class="project__content">
+                <h1>Shared Mixed Reality</h1>
+                <h2>Senior Capstone Project</h2>
+                <p>For our senior design project, my team and I developed a HoloLens application that enabled real-time shared hologram experiences. The project aimed to improve collaboration in mixed reality by allowing multiple users to view, manipulate, and interact with holograms in a synchronized environment. Built using Unity and C#, the application leveraged networking protocols to ensure seamless data transmission between devices. This project demonstrated the potential of augmented reality in fields like engineering, training, and remote assistance, showcasing how immersive technology can enhance teamwork.</p>
+            </div>
+            <div class="main__img--container">
+                <img src="images/MSR Diagram.png" alt="pic" id="main__img">
+                <img src="images/SharedMixedReality2.png" alt="pic" id="main__img">
+            </div>
+        </div>
+     </div>
+     <div class="tech__container">
+        <div class="tech__items">
+            <h1>Technologies Used</h1>
+            <p>C# Scripts: For application functionality</p>
+            <p>Unity: For application design</p>
+            <p>Visual Studio: To build and push software to the device</p>
+            <p>Mixed Reality Toolkit: For hololens specific interactions</p>
+            <p>Photon PUN: For hololens networking and sharing services</p>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+      <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <a href="resume.html">Resume</a>
+                </div>
+            </div>
+            <div class="footer_link--wrapper">
+                <div class="footer__link--items">
+                    <a href="contact.html">Contact Me</a> 
+                </div>
+            </div>
+            <div class="footer_link--wrapper">
+                <div class="footer__link--items">
+                    <a href="projects.html">Projects</a> 
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="social__icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009246130617" class="social__icon--link"
+                    target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/evan_schock81/" class="social__icon--link"
+                    target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/eschock13" class="social__icon--link"
+                    target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/evan-schock-64943b1a4/" class="social__icon--link"
+                    target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
