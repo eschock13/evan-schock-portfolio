@@ -573,6 +573,17 @@ html, body {
     justify-content: space-between;
 }
 
+.contact--social__media--wrap {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
 .social__media--wrap {
     display: flex;
     justify-content: center;
